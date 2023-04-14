@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  padding-left: 1vh;
+}
+section {
+  margin-left: 1vh;
+  height: 50vh;
+  width: 50vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.square {
+  width: 33.3333%;
+  height: 33.3333%;
+  margin: 0;
+}
+#start, #restart {
+  margin: 2vh 1vh 0 1vh;
+}
+h2 {
+  padding: 1vh;
+  padding-top: 0;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
